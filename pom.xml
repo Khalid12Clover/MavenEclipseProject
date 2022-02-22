@@ -22,4 +22,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <properties>
+  	<sonar.qualitygate.wait>true</sonar.qualitygate.wait>
+  </properties>
 </project>
