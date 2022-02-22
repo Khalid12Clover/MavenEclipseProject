@@ -12,6 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <sonar.qualitygate.wait>true</sonar.qualitygate.wait>
   </properties>
 
   <dependencies>
@@ -22,7 +23,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <properties>
-  	<sonar.qualitygate.wait>true</sonar.qualitygate.wait>
-  </properties>
 </project>
